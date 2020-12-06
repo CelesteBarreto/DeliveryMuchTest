@@ -12,7 +12,7 @@ https://cli.angular.io/
 após a instalação, para criar um projeto em angular o comando 
 ng new pokemon-list
 
-Instalei o angular material para fazer uso de componentes
+Fiz o uso do angular material para ter acesso aos componentes
 ng add @angular/material
 
 
