@@ -1,0 +1,18 @@
+.image {
+    height: 40em;
+    background-size: cover;
+    width: auto;
+    background-image: url('https://wallpapercave.com/wp/wp4359889.jpg');
+    background-position: 50% 50%;
+    /* 'https://i.pinimg.com/originals/2c/db/7b/2cdb7bedd0ed1423ecf28026c21558ea.jpg' */
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.image-logo {
+    height: 45px;
+    width: 79px;
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemon-79x45.png');
+}

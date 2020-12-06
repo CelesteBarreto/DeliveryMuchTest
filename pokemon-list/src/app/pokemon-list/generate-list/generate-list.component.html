@@ -1,0 +1,32 @@
+<mat-card class="mycard">
+    <mat-card-header>
+        <mat-card-title>Pokemon Generation List</mat-card-title>
+        <mat-card-subtitle>Delivery Much Challenge</mat-card-subtitle>
+    </mat-card-header>
+    <div mat-card-image></div>
+    <mat-card-content>
+        <p>
+            The content list pokemon generation's names are bellow:
+        </p>
+        <p>List</p>
+        {{result.sprites.versions | json}}
+
+    </mat-card-content>
+
+    <!--  <script>
+        const p = document.querySelector('p');
+        const myArticle = document.createElement('article');
+        const myList = document.createElement('ul');
+
+   
+
+        for (let j = 0; j < result.length; j++) {
+            const listItem = document.createElement('li');
+            listItem.textContent = result[j];
+            myList.appendChild(listItem);
+        }
+
+        myArticle.appendChild(myList);
+    </script> -->
+
+</mat-card>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AngularCourse</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<header>
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <div class="image-logo"></div>
+            <span class="example-spacer"></span>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+              <mat-icon>menu</mat-icon>
+              <mat-menu #menu="matMenu">
+                <button mat-menu-item>Login</button>
+            <button mat-menu-item><a href="https://pokemongolive.com/events/community-day/">Community</a></button>
+            </mat-menu>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+    <div class="image"></div>
+</header>
+
+<body>
+    <!-- <p>pokemon-list works!</p> -->
+    <app-generate-list></app-generate-list>
+    <!-- <button (click)="listarTodosProdutos()">GET</button> -->
+
+</body>
+
+</html>
+
+<router-outlet></router-outlet>
