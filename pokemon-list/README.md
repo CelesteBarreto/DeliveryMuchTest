@@ -1,4 +1,4 @@
-
+![image](https://github.com/CelesteBarreto/DeliveryMuchTest/blob/main/pokemon-list/src/assets/screenshot.png)
 Executar a aplicação localmente:
 
 Deve ter instalado em sua máquina:
